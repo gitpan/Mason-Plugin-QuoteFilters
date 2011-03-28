@@ -4,7 +4,7 @@ package Mason::Plugin::QuoteFilters;
 use Moose;
 with 'Mason::Plugin';
 
-our $VERSION = 0.001;# VERSION
+our $VERSION = 0.002;# VERSION
 
 __PACKAGE__->meta->make_immutable;
 
@@ -20,7 +20,7 @@ Mason::Plugin::QuoteFilters - Filters for making quoted strings
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

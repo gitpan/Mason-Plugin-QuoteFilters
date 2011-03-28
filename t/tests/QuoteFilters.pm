@@ -15,7 +15,6 @@ sub test_q : Test(1) {
     my $self = shift;
 
     $self->test_comp(
-        path => '/test/q.m',
         src  => <<'EOF',
 single quote test: <% 2 + 2 |Q %> ok
 escaping: <% q{foo'bar"baz} |Q %> ok
@@ -31,7 +30,6 @@ sub test_qq : Test(1) {
     my $self = shift;
 
     $self->test_comp(
-        path => '/test/qq.m',
         src  => <<'EOF',
 double quote test: <% 2 + 2 |QQ %> ok
 escaping: <% q{foo'bar"baz} |QQ %> ok
